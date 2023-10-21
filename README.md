@@ -1,4 +1,7 @@
 # MNIST--Neural-Network
+## Video Demonstration
+[![Video Thumbnail](thumbnail/thumbnail.png)](https://www.youtube.com/watch?v=IH5ZmYDlOY8)
+
 
 ## Introduction
 
