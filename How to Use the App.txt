@@ -1,0 +1,41 @@
+**How to Use the App**
+
+1. **Install Anaconda**:
+   - If you haven't installed Anaconda yet, download it from [Anaconda's official website](https://www.anaconda.com/products/distribution) and follow the installation guide.
+
+1.1. **Open Anaconda Prompt**:
+   - Once Anaconda is installed, search for "Anaconda Prompt" in your computer's search bar and open it.
+
+2. **Create a New Anaconda Environment**:
+   - Command: 
+     ```
+     conda create --name anyname python=3.7.6 pytorch=1.11.0 torchvision torchaudio cudatoolkit -c pytorch
+     ```
+
+3. **Activate the Environment**:
+   - Command: 
+     ```
+     conda activate anyname
+     ```
+
+4. **Navigate to Project Directory**:
+   - Use the `cd` command to move to the directory where your project is located.
+
+5. **Install Required Packages**:
+   - Command:
+     ```
+     pip install -r requirements.txt
+     ```
+
+6. **Run the Application**:
+   - First, make sure you're in the directory containing `app.py`.
+   - Command:
+     ```
+     python app.py
+     ```
+
+7. **Access the App in a Browser**:
+   - Open any browser and navigate to:
+     ```
+     http://127.0.0.1:5000/
+     ```
